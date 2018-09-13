@@ -1,0 +1,44 @@
+baseurl = "http://iacutone.github.io/"
+languageCode = "en-us"
+title = "Iacutone Dev Blog"
+theme = "hugo-steam-theme"
+disqusShortname = "iacutone"
+# Enable Google Analytics be inserting your tracking code
+googleAnalytics = "UA-38341110-1"
+# Number of posts per page
+paginate = 10
+
+[params]
+	title = "Iacutone Dev Blog"
+	subtitle = ""
+	copyright = "Released under the MIT license."
+
+	# You can choose between green, orange, red and blue.
+	themecolor = "blue"
+
+	# Link custom assets relative to /static
+	favicon   = "favicon.ico"
+	customCSS = []
+	customJS  = []
+
+	# To provide some metadata for search engines and the about section in the footer
+	# feel free to add a few information about you and your website.
+	name = "Eric Iacutone"
+	bio = "Ruby dev"
+	description = "My dev blog"
+	
+	# Link your social networks (optional)
+	location = "Peru"
+	twitter = "iacutone"
+	linkedin = "iacutone"
+	facebook = ""
+	instagram = "iacutone"
+	github = "iacutone"
+	gitlab = ""
+	bitbucket = ""
+
+	# Customize or translate the strings
+	keepReadingStr = "Keep reading"
+	backtotopStr = "Back to top"
+	shareStr = "Share"
+	pageNotFoundTitle = "404 - Page not found"
