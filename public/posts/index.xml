@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Iacutone Dev Blog</title>
+    <link>http://iacutone.github.io/posts/</link>
+    <description>Recent content in Posts on Iacutone Dev Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Sep 2018 10:51:44 -0400</lastBuildDate>
+    
+	<atom:link href="http://iacutone.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rails Helper Method</title>
+      <link>http://iacutone.github.io/posts/rails-helper-method/</link>
+      <pubDate>Thu, 13 Sep 2018 10:51:44 -0400</pubDate>
+      
+      <guid>http://iacutone.github.io/posts/rails-helper-method/</guid>
+      <description>Helper methods allow controller methods to be called in the associated layout code.
+# UserController helper_method def current_user @current_user ||= User.find(params[:id]) end  # User Show Page &amp;lt;h1&amp;gt;Hello, &amp;lt;%= current_user %&amp;gt;&amp;lt;/h1&amp;gt;  Why use a helper_method? A helper method is advantageous to use over an instance variable in a variety of ways.
+ Instance variable value is set to nil which can lead to unexpected results  def test @test end # test == nil   Instance variables are more difficult to maintain due to tracking of read and write, especially when @object is used in many places</description>
+    </item>
+    
+  </channel>
+</rss>
