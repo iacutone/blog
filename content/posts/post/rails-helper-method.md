@@ -2,7 +2,6 @@
 title: "Rails Helper Method"
 date: 2018-09-13T10:51:44-04:00
 draft: false
-slug = "rails-helper"
 tags:
 - Ruby
 - Rails
