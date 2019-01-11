@@ -7,4 +7,4 @@ Categories = []
 
 I thought I would share my diagram for how I think about PR review. The following diagram received good reception from my team.
 
-{% img images/pr_review.jpg %}
+![](/post/images/pr_review.jpg)
